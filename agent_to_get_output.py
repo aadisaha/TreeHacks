@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1nVYEPlrIuToP7zznxpqfHAvhccyvDtGa
 """
 
-api_key = "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"
+api_key = "API_KEY"
 
 import openai
 openai.api_key = api_key
@@ -15,7 +15,7 @@ openai.api_key = api_key
 """# Agents"""
 
 import os
-os.environ['SERPAPI_API_KEY'] = "e55bdae8a1c00ea4f603d85ccdcf09a4890f03fefe447b2703f2ccd6a147b574"
+os.environ['SERPAPI_API_KEY'] = "API_KEY"
 
 from langchain.agents import load_tools
 from langchain.agents import initialize_agent
